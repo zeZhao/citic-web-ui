@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon">
+    <defs>
+        <style type="text/css"/>
+        <symbol id="svg_2" viewBox="0 0 1102 1024" class="icon" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style type="text/css"/>
+            </defs>
+            <path d="m204.01647,985.19263a38.6957,38.6957 0 1 0 39.2485,-38.58514a38.6957,38.6957 0 0 0 -38.80627,38.58514l-0.44223,0zm-203.98164,0a38.6957,38.6957 0 1 0 38.6957,-38.58514a38.80626,38.80626 0 0 0 -38.6957,38.58514zm1102.38533,-335.43648a378.66511,378.66511 0 0 1 -325.15447,374.24274l-351.57812,0a38.6957,38.6957 0 0 1 -38.6957,-38.6957a38.6957,38.6957 0 0 1 38.6957,-38.6957l346.27128,0a300.61034,300.61034 0 0 0 -16.91555,-595.91385l-625.76482,0l208.51456,208.51457a38.6957,38.6957 0 0 1 -54.72678,55.27957l-270.09601,-270.53825a44.22366,44.22366 0 0 1 0,-62.57648l270.09601,-270.31713a38.80626,38.80626 0 0 1 54.72679,0a38.58514,38.58514 0 0 1 0,54.72678l-207.18786,207.51953l627.64432,0a378.77567,378.77567 0 0 1 344.17065,376.45392z" id="svg_5"/>
+        </symbol>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <use x="1.00244" y="0" transform="matrix(0.9975647624001719,0,0,1.0627339145377275,0.11910614314809957,-6.196182102428404) " xlink:href="#svg_2" id="svg_3"/>
+        <rect fill="#c30d23" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="37.12011" y="183.45801" width="15" height="15.5" id="svg_8"/>
+        <rect fill="#c30d23" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1.06251" y="183.55175" width="15" height="15.5" id="svg_9"/>
+    </g>
+</svg>

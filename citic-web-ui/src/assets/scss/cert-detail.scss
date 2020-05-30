@@ -1,0 +1,415 @@
+.citic-certification-details {
+    font-size: 14px;
+    color: #2e2f2f;
+
+    .banner {
+      height: 430px;
+      color: #fff;
+      background: url(~static/images/cert/bg-banner1.png) no-repeat center;
+      overflow: hidden;
+
+      .banner-inner {
+        width: 1200px;
+        margin: 0 auto;
+        //text-align: center;
+          .banner-txt{
+              width: 640px;
+          }
+        h2 {
+          margin-top: 110px;
+          //line-height: 78px;
+          font-weight: normal;
+          font-size: 30px;
+        }
+
+        .desc {
+          line-height: 25px;
+            padding-top: 30px;
+          //text-indent: 2em;
+        }
+
+        .apply-btn {
+          display: inline-block;
+          width: 182px;
+          height: 46px;
+          margin-top: 36px;
+          line-height: 46px;
+          border-radius: 25px;
+          text-align: center;
+          color: #ff413b;
+          background-color: #fff;
+        }
+      }
+    }
+
+    .wrapper {
+        .tabHead{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        .boxN{
+            width: 100%;
+            height: 100px;
+        }
+      .tab-header-wrapper {
+        width: 100%;
+        padding-top: 10px;
+        box-shadow: 0 3px 5px #ececec;
+        background: #fff;
+
+        .tab-header {
+          width: 1200px;
+          margin: 0 auto;
+          display: flex;
+            .active{
+                color: #ff0000;
+                border-bottom: 2px solid #ff0000;
+            }
+
+          li {
+            flex: 1;
+            height: 68px;
+            margin: 0 44px;
+            line-height: 68px;
+            border-bottom: 2px solid #fff;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+
+            &.cur {
+              color: #f00;
+              border-color: #f00;
+            }
+          }
+        }
+      }
+
+      .content {
+        .title {
+          line-height: 150px;
+          text-align: center;
+          font-size: 30px;
+          font-weight: normal;
+
+          &.bg1 {
+            background-color: #e6f1f9;
+          }
+        }
+
+        .citic-cert {
+          width: 1200px;
+          margin: 0 auto;
+          padding: 42px;
+          box-shadow: 0px 0px 20px #ececec;
+          overflow: hidden;
+            background: url(~static/images/cert/bg-certification.png) no-repeat -35px -20px;
+
+          .cert-intro {
+            float: left;
+            width: 620px;
+
+            h5 {
+              //color: #54b5f5;
+              font-size: 20px;
+              font-weight: bold;
+              line-height: 65px;
+            }
+
+            .desc {
+              line-height: 26px;
+              //text-indent: 2em;
+            }
+          }
+
+          img {
+            float: right;
+          }
+        }
+
+        .process {
+          position: relative;
+          width: 1200px;
+          margin: 0 auto 10px;
+
+          .process-title-wrapper {
+            border-bottom: 1px solid #e5e5e5;
+
+            .process-title {
+              display: flex;
+              width: 700px;
+              margin: 0 auto;
+
+              li {
+                flex: 1;
+                padding: 0 20px;
+                margin: 0 10px;
+                line-height: 56px;
+                text-align: center;
+                font-size: 18px;
+                  font-weight: bold;
+                cursor: pointer;
+
+                &.cur {
+                  position: relative;
+                  color: #54b5f5;
+
+                  &:after {
+                    position: absolute;
+                    left: 0;
+                    top: 1px;
+                    width: 100%;
+                    height: 100%;
+                    content: ' ';
+                    border-bottom: 2px solid #54b5f5;
+                  }
+                }
+              }
+            }
+          }
+
+          .steps {
+            display: flex;
+            margin: 0 50px;
+
+            li {
+              width: 145px;
+              margin-right: 100px;
+              padding: 60px 0 10px;
+              text-align: center;
+              color: #424041;
+
+              .step-icon {
+                width: 162px;
+                height: 140px;
+                margin: 0 auto;
+                line-height: 140px;
+                background: url(~static/images/cert/bg-process.png) no-repeat;
+
+                img {
+                  width: 50px;
+                  height: 50px;
+                  margin-top: 45px;
+                  margin-right: 14px;
+                }
+              }
+
+                &.last {
+                  margin-right: 0;
+
+                  .step-icon {
+                    background: url(~static/images/cert/bg-process-last.png) no-repeat;
+                  }
+                }
+
+              .step-name {
+                line-height: 50px;
+                font-weight: bold;
+                font-size: 16px;
+              }
+
+              .step-desc {
+                line-height: 24px;
+              }
+            }
+
+            &.weibo {
+              li {
+                width: 200px;
+                margin-right: 158px;
+              }
+            }
+          }
+
+          .process-line {
+            position: absolute;
+            top: 184px;
+            left: 150px;
+            width: 900px;
+            height: 5px;
+            background-color: #f7f8fa;
+            z-index: -1000;
+          }
+        }
+
+        .cert-rule {
+          //color: #fff;
+          background-color: #f2f2f2;
+
+          .rules {
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+
+            li {
+              flex: 1;
+              height: 482px;
+              padding: 32px 25px;
+              text-align: center;
+                position: relative;
+                overflow: hidden;
+
+              &.rule1 {
+                background: url(~static/images/cert/bg-rule-4.png) no-repeat;
+              }
+
+              &.rule2 {
+                background: url(~static/images/cert/bg-rule-5.png) no-repeat;
+              }
+
+              &.rule3 {
+                background: url(~static/images/cert/bg-rule-6.png) no-repeat;
+              }
+
+              .rule-img {
+                width: 100px;
+                height: 120px;
+                margin: 114px auto 0;
+                line-height: 120px;
+                text-align: center;
+                img {
+                  vertical-align: middle;
+                }
+              }
+                .rule-hover{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    //display: none;
+                    background: #d92028;
+                    opacity: 0;
+                }
+
+              .rule-name {
+                line-height: 64px;
+                font-size: 20px;
+                text-align: center;
+                  z-index: 9;
+              }
+
+              .rule-desc {
+                  padding: 0 25px;
+                color: #fff;
+                  text-align: left;
+              }
+
+              .rule-btn {
+                width: 140px;
+                margin-top: 28px;
+                line-height: 34px;
+                border: 1px solid #fff;
+                border-radius: 16px;
+                text-align: center;
+                color: #fff;
+
+                &.disabled {
+                  border-color: #c5c8ce;
+                  color: #c5c8ce;
+                  cursor: default;
+                }
+              }
+
+              &:hover {
+
+                .rule-hover {
+                    opacity: .6;
+                    transition: opacity .3s;
+                }
+                  .rule-img-B{
+                      display: none;
+                  }
+                  .rule-img{
+                      margin-top: 50px;
+                      transition: all .3s;
+                  }
+                  .rule-name{
+                   color: #fff;
+                  }
+
+                .rule-btn {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+        }
+
+        .certificate-intro {
+          margin-bottom: 90px;
+
+          .certs {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+
+            li {
+              flex: 1;
+              margin-right: 32px;
+              padding: 26px 30px;
+              border: 1px solid #bfbfbf;
+
+              &:last-child {
+                margin-right: 0;
+              }
+
+              .cert-img {
+
+              }
+
+              .cert-desc {
+                float: right;
+                width: 62%;
+                margin-top: 50px;
+
+                h5 {
+                  font-size: 18px;
+                  color: #54b5f5;
+                  line-height: 75px;
+                }
+
+                .desc {
+                  line-height: 26px;
+                  color: #000;
+                  //text-indent: 2em;
+                }
+              }
+            }
+          }
+        }
+
+        .certificated-org {
+          padding-bottom: 45px;
+          background: url(~static/images/cert/bg-certificated1.png) no-repeat;
+
+          .list {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+
+            li {
+              float: left;
+              width: 33.33%;
+              padding-left: 80px;
+              line-height: 28px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+              a {
+                padding-left: 20px;
+                color: #575758;
+                background: url(~static/images/cert/icon-star.png) no-repeat;
+              }
+            }
+              li:hover{
+                  overflow: initial;
+              }
+          }
+        }
+      }
+    }
+  }

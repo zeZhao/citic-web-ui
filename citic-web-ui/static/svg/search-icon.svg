@@ -1,0 +1,10 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="icon">
+    <defs>
+        <style type="text/css"/>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <path fill="#999999" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" d="m1,79.67969l0,0c0,-43.45359 34.94278,-78.67969 78.04688,-78.67969l0,0c20.69931,0 40.55085,8.28944 55.18746,23.04474c14.63663,14.75531 22.85941,34.76779 22.85941,55.63495l0,0c0,43.45358 -34.94278,78.67969 -78.04688,78.67969l0,0c-43.10409,0 -78.04688,-35.22611 -78.04688,-78.67969l0.00001,0zm39.02344,0l0,0c0,21.72679 17.4714,39.33984 39.02344,39.33984c21.55205,0 39.02344,-17.61306 39.02344,-39.33984c0,-21.72679 -17.4714,-39.33984 -39.02344,-39.33984l0,0c-21.55204,0 -39.02344,17.61306 -39.02344,39.33984z" id="svg_22" stroke="#999999"/>
+        <rect stroke="#ce1515" fill="#ce1515" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="126.26084" y="132.46868" width="42.71253" height="31.21875" id="svg_26" transform="rotate(44.40934753417969 147.61711120605463,148.07806396484375) "/>
+    </g>
+</svg>

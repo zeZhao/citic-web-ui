@@ -1,0 +1,124 @@
+.com-buy {
+    min-height: 1000px;
+    overflow: hidden;
+  .verify-tips {
+    margin-bottom: 24px;
+    padding: 0 36px;
+    line-height: 48px;
+    border: 1px solid #bfbfbf;
+    color: #5c5d5e;
+    background-color: #eff7ff;
+  }
+    .uploadBtn{
+        float: right;
+        margin-top: -33px;
+        margin-right: 252px;
+    }
+    .tip{
+        line-height: 20px;
+        margin-top: 10px
+    }
+
+  .ivu-form-item {
+    width: 70%;
+
+      .ivu-radio-group{
+          .ivu-radio-wrapper{
+              min-width: 180px;
+              text-align: center;
+              margin-right: 10px;
+              /*white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;*/
+          }
+          .ivu-radio-wrapper-checked{
+              background: #61b3ff;
+              color: #fff;
+              border: none;
+          }
+      }
+
+      .ivu-form-item-label{
+          width: 120px !important;
+          text-align: left;
+          text-indent: -5px;
+          margin-left: 12px;
+          line-height: 18px;
+      }
+      .ivu-form-item-content{
+          margin-left: 150px !important;
+      }
+
+    &.provinceItem {
+      display: inline-block;
+      width: 242px;
+    }
+
+    &.cityItem {
+      display: inline-block;
+        margin-left: 10px !important;
+
+      .ivu-form-item-content {
+        margin-left: 0 !important;
+      }
+    }
+
+    .lincense {
+      .ivu-upload {
+
+        .icon-wrapper {
+          width: 218px;
+          height: 132px;
+          line-height: 132px;
+        }
+      }
+
+      .ivu-upload-drag,
+      .demo-upload-list {
+        width: 218px;
+        height: 132px;
+        border: 1px solid #dddee1;
+
+        .ivu-icon {
+          line-height: 132px;
+        }
+      }
+    }
+
+    .ivu-select {
+      width: 100px;
+    }
+
+    .width300 {
+      width: 300px;
+    }
+
+    .width400 {
+      width: 400px;
+    }
+
+    .tips {
+      float: right;
+    }
+  }
+
+  .em {
+    color: #f00;
+    font-size: 16px;
+  }
+    .box-shadow{
+        height: 220px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 19px 0 #ebebeb;
+
+        .serviceCharge{
+            padding-top: 60px;
+        }
+        .submitBox{
+            float: right;width: 30%;margin-top: -60px;
+            .submitStyle{
+                border-radius: 15px;width: 130px
+            }
+        }
+    }
+}

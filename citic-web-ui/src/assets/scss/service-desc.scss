@@ -1,0 +1,269 @@
+.product-detail {
+    .ivu-breadcrumb {
+        width: 1200px;
+        margin: 0 auto;
+        line-height: 50px;
+        overflow: hidden;
+    }
+
+    .product-intro-wrapper {
+        background: url(../../../assets/images/product/bg-detail.jpg) no-repeat center;
+        overflow: hidden;
+
+        .product-intro-inner {
+            width: 1200px;
+            margin: 60px auto;
+            color: #fff;
+
+            h2 {
+                margin-bottom: 20px;
+                padding: 0 10px;
+                font: 400 48px/60px Microsoft Yahei;
+            }
+
+            .product-intro {
+                height: 96px;
+                margin-top: 6px;
+                padding: 0 10px;
+                overflow: hidden;
+                font: 400 18px/24px Microsoft Yahei;
+            }
+
+            .buy-btn {
+                display: block;
+                width: 160px;
+                margin: 50px 0 0;
+                padding: 0;
+                border: 1px solid #5acaba;
+                border-radius: 25px;
+                font: 400 16px/40px Microsoft Yahei;
+                text-align: center;
+                color: #fff;
+                background: #5acaba;
+                cursor: pointer;
+            }
+
+            .buy-btn:hover {
+                border: 1px solid #4557b2;
+                background: #4557b2;
+            }
+        }
+    }
+}
+
+/*markdown*/
+.product-desc {
+    .product-desc-inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 20px 30px;
+
+        /* tab */
+        .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-nav-container {
+            height: 50px;
+        }
+        .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+            border: none;
+            background: #eaeaea;
+            border-radius: 0;
+            margin: 0;
+            width: 148px;
+            height: 50px;
+            padding: 16px 36px;
+            text-align: center;
+            .alert-num {
+                color: red;
+            }
+        }
+        .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+            border: none;
+            background: #e51c23;
+            color: #fff;
+            width: 148px;
+            height: 50px;
+            padding: 16px 36px;
+            text-align: center;
+            .alert-num {
+                color: #fff;
+            }
+        }
+
+        /* markdown desc */
+        .markdown-desc {
+            /* 动态dom样式 */
+            ul li.videoImg {
+                height: 234px;
+                float: left;
+                overflow: hidden;
+                display: inline;
+                width: 18%;
+                padding: 6px;
+                background: none;
+            }
+            ul li.videoWrapper {
+                height: 116px;
+                float: left;
+                display: inline;
+                width: 18%;
+                border: 2px solid #8babd1;
+                border-radius: 4px;
+                text-align: center;
+                padding: 6px;
+                background: none;
+            }
+            ul li .video {
+                display: block;
+                height: 116px;
+                line-height: 190px;
+                background: url(../../../assets/images/product/playmedia.png) center center no-repeat;
+            }
+            /* END */
+
+            h2 {
+                width: 100%;
+                font-size: 24px;
+                background-color: #fff;
+                display: inline-block;
+                padding-right: 10px;
+                padding-top: 10px;
+                border-bottom: 2px solid red;
+            }
+            h3 {
+                width: 100%;
+                font-size: 20px;
+                display: inline-block;
+                padding-right: 6px;
+                margin: 16px 0 0px 0;
+                padding: 0 0 0 20px;
+                background: url(../../../assets/images/product/costlist-icon.png) 0px 10px no-repeat;
+            }
+            h4 {
+                width: 100%;
+                font-size: 16px;
+                display: inline-block;
+                padding-top: 6px;
+                margin: 10px 0 0px 0;
+            }
+            h5 {
+                width: 100%;
+                font-size: 15px;
+                display: inline-block;
+                padding-top: 6px;
+                color: #888;
+                margin: 10px 0 0px 0;
+            }
+            p {
+                width: 100%;
+                font-size: 14px;
+                display: inline-block;
+                padding-right: 6px;
+                padding-top: 6px;
+                text-indent: 2em;
+                line-height: 24px;
+
+                img {
+                    border-radius: 16px;
+                    border: 3px solid #f8f8f8;
+                }
+            }
+            ul {
+                overflow: hidden;
+                display: inline-block;
+                border: 1px solid #f0f0f0;
+                padding: 12px 0;
+                margin: 6px 0;
+                width: 100%;
+
+                li {
+                    display: block;
+                    background: url(../../../assets/images/product/ptext.png) 0 4px no-repeat;
+                    padding-left: 16px;
+                    text-align: left;
+                    margin: 4px;
+                    overflow: hidden;
+                    cursor: pointer;
+
+                    a {
+                        line-height: 225px;
+                    }
+
+                    p img {
+                        width: 100px;
+                    }
+
+                    h5 {
+                        padding: 0px;
+                        margin: 0px;
+                    }
+                }
+                li:hover {
+                    border-radius: 10px;
+                }
+            }
+
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                color: #333;
+                width: 100%;
+                margin-top: 12px;
+                border: 1px solid #eee;
+
+                td {
+                    border-left: 1px solid #f0f0f0;
+                    border-top: 1px solid #f0f0f0;
+                    vertical-align: middle;
+                    height: 60px;
+                    padding: 0 20px;
+                    position: relative;
+                    line-height: 24px;
+                    font-size: 14px;
+                    color: #333;
+
+                    span {
+                        line-height: 60px;
+                        margin-left: 15px;
+                    }
+                }
+
+                tr:first-child td {
+                    height: 30px;
+                    color: red;
+                }
+
+                td:first-child {
+                    width: 14%;
+                }
+            }
+        }
+
+        /* default desc */
+        .default-desc {
+            padding: 0 0 40px 0;
+            text-align: center;
+            border: 1px solid #8babd1;
+            background: url(../../../assets/images/product/bg-detail-desc.png) repeat-x 0 -20px;
+
+            .building {
+                width: 400px;
+                height: 85px;
+                margin: 22px auto;
+                background: url(../../../assets/images/product/building.png) no-repeat;
+            }
+
+            .content {
+                margin: 0 20px;
+
+                h4 {
+                    font: bold 18px/2em '微软雅黑';
+                }
+
+                p {
+                    text-align: left;
+                    text-indent: 2em;
+                    font: normal 16px/1.4em '微软雅黑';
+                }
+            }
+        }
+    }
+}

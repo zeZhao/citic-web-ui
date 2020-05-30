@@ -1,0 +1,122 @@
+.block-base {
+    .ivu-timeline-item-tail {
+        border-left: 2px dashed #60acf3;
+    }
+
+    //鼠标覆盖则添加阴影
+    .hover-box-shadow {
+        transition: 0.5s;
+
+        &:hover {
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .header {
+        height: 503px;
+        background: no-repeat center;
+        background-size: cover;
+
+        .slogan {
+            width: 1200px;
+            padding: 80px 0 0 100px;
+            margin: 0 auto;
+
+            h2 {
+                color: #fff;
+                font-size: 32px;
+                padding-bottom: 5px;
+                font-weight: normal;
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 16px;
+                margin-top: 25px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .course {
+        background-color: #f5f5f6;
+        h3 {
+            padding: 50px 0 35px 0;
+        }
+
+        .course-box {
+            margin: 0 auto;
+            margin-top: 130px;
+            width: 1200px;
+        }
+    }
+
+    .case {
+        padding-bottom: 65px;
+
+        h3 {
+            padding: 60px 0 40px 0;
+        }
+
+        .case-panel {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+
+            .case-content {
+                padding: 40px 20px;
+                overflow: hidden;
+                border-bottom: 1px solid #bfbfbf;
+
+                .article {
+                    float: left;
+                    margin-left: 40px;
+                    width: 575px;
+
+                    span {
+                        display: inline-block;
+                        font-size: 20px;
+                        color: #fff;
+                        background-color: #60acf3;
+                        padding: 10px 20px;
+                    }
+
+                    .title {
+                        text-align: left;
+                        margin: 25px 0;
+                        color: #333;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            bottom: -6px;
+                            height: 2px;
+                            background: #7f7f7f;
+                            width: 60px;
+                            left: 0;
+                        }
+                    }
+
+                    .detail {
+                        color: #999;
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+
+                img {
+                    float: left;
+                    width: 518px;
+                    height: 342px;
+                }
+            }
+        }
+    }
+}

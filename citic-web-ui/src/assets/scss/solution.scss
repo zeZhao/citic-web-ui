@@ -1,0 +1,251 @@
+.solution-base{
+    //鼠标覆盖则添加阴影
+    .hover-box-shadow{
+
+        transition: .5s;
+
+        &:hover{
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .header{
+        height: 450px;
+        background: no-repeat center;
+        background-size: cover;
+
+        .slogan{
+            width: 1200px;
+            padding: 150px 0 0 100px;
+            margin: 0 auto;
+
+            h2{
+                color: #fff;
+                font-size: 32px;
+                padding-bottom: 5px;
+                font-weight: normal;
+            }
+
+            p{
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 14px;
+            }
+        }
+    }
+
+    .title{
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .demand{
+        height: 520px;
+        background: url("../../../static/images/solution/public/demand-background.jpg") no-repeat center;
+        background-size: cover;
+
+        h3{
+            padding: 50px 0 35px 0;
+        }
+
+        .wheel-box{
+            margin: 0 auto;
+            width: 1200px;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+            background: #fff;
+
+            /deep/ .ivu-carousel-arrow {
+                background: rgba(255, 255, 255, 0.7);
+                box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+                color: #58a8f4;
+
+                &:hover {
+                    background: #ffffff;
+                }
+
+                &.right {
+                    right: -16px;
+                }
+
+                &.left {
+                    left: -16px;
+                }
+
+            }
+
+            .wheel{
+                .carousel-item{
+                    border-radius: 10px;
+                    height: 315px;
+                    padding: 40px 70px;
+                    background: #fff;
+
+                    img{
+                        height: 100%;
+                        float: left;
+                    }
+
+                    .introduce{
+                        float: left;
+                        padding: 60px 55px 0 55px;
+                        font-size: 14px;
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+
+    .feature{
+        height: 690px;
+        background: no-repeat center;
+        background-size: cover;
+
+        h3{
+            color: #fff;
+            padding: 75px 0 60px 0;
+        }
+
+        ul{
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+
+            li{
+                float: left;
+                width: 298px;
+                height: 215px;
+                margin: 1px;
+                background: linear-gradient(rgba(150, 166, 251, 0.4), rgba(89, 54, 162, 0.4));
+                padding: 55px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+
+                .icon{
+                    transition: .2s;
+                    background: no-repeat center;
+                    height: 35px;
+                    width: 35px;
+                    display: inline-block;
+                }
+
+                label{
+                    display: block;
+                    color: #fff;
+                    font-size: 16px;
+                    padding-top: 5px;
+                    position: relative;
+                    transition: .5s;
+
+                    &::after{
+                        content: '';
+                        display: inline-block;
+                        height: 1px;
+                        background: #fff;
+                        width: 20px;
+                        position: absolute;
+                        bottom: -5px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+                    &.wait{
+                        margin-top: 25px;
+                        transform: translateY(0) !important;
+
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+
+                .info{
+                    color: #fff;
+                    position: absolute;
+                    top: 300px;
+                    transition: .3s;
+                    left: 55px;
+                    right: 55px;
+                }
+
+                &:hover{
+                    background: linear-gradient(rgba(64, 143, 232, 0.4), rgba(128, 69, 225, 0.4));
+
+                    .icon{
+                      height: 0;
+                    }
+
+                    label{
+                        transform: translateY(-90%);
+                    }
+
+                    .info{
+                        top: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .scheme{
+        padding-bottom: 65px;
+        background: #f5f5f5;
+
+        h3{
+            padding: 55px 0 40px 0;
+        }
+    }
+
+    .case{
+        padding-bottom: 65px;
+
+        h3{
+            padding: 60px 0 40px 0;
+        }
+
+        .case-panel{
+            width: 1200px;
+            margin: 0 auto;
+            border: 1px solid #bfbfbf;
+            padding: 20px;
+            overflow: hidden;
+
+            .article{
+                float: left;
+                margin: 0 60px 0 40px;
+                width: 578px;
+
+                .title{
+                    text-align: left;
+                    margin: 50px 0 40px 0;
+                    color: #333;
+                    position: relative;
+
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: -6px;
+                        height: 2px;
+                        background: #7f7f7f;
+                        width: 30px;
+                        left: 0;
+                    }
+                }
+
+                .detail{
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+
+            img{
+                float: right;
+                width: 480px;
+            }
+        }
+    }
+
+}

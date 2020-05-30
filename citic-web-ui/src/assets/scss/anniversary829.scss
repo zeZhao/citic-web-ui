@@ -1,0 +1,964 @@
+.anniversary{
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
+    background: url(../../../static/images/news/anniversary829/background.png) no-repeat;
+    a{
+        color: #ffffff;
+        display: block;
+    }
+    .theme{
+        width: 1200px;
+        height: 650px;
+        margin: 0 auto;
+        text-align: center;
+        .theme-nav{
+            width: 100%;
+            /*background: url(../../../static/images/news/anniversary829/theme-nav.png) center no-repeat ;*/
+            .nav-back{
+            }
+            .nav-txt-list{
+                width: 825px;
+                height: 70px;
+                margin: 0 auto;
+                li{
+                    float: left;
+                    margin-right: 20px;
+                    .nav-txt{
+                        width: 145px;
+                        height: 35px;
+                        text-align: center;
+                        line-height: 30px;
+                        background-image: linear-gradient(0deg,
+                            #895d32 0%,
+                            #a76f38 100%);
+                        border: solid 1px #e5bf9a;
+                        font-size: 16px;
+                        color: #ffffff;
+                    }
+                    .nav-txt-synopsis{
+                        margin-top: 10px;
+                        color: #f2d6bc;
+                    }
+                }
+                .circle{
+                    width: 21px;
+                    height: 21px;
+                    border: solid 1px #fff1c7;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 5px;
+                    color: #e5bf9a;
+                    margin-top: 10px;
+                }
+                .circle:not(:first-child)::before{
+                    width: 20px;
+                    height: 1px;
+                    background-color:#e5bf9a;
+                    display: inline-block;
+                    content: "";
+                    position: relative;
+                    top: 2px;
+                    left: -20px;
+                }
+                .circle:not(:last-child)::after{
+                    width: 20px;
+                    height: 1px;
+                    background-color:#e5bf9a;
+                    display: inline-block;
+                    content: "";
+                    position: relative;
+                    top: -10px;
+                    left: 20px;
+                }
+                .circle:nth-of-type(1){
+                    line-height: 21px;
+                }
+                .circle:nth-of-type(1)::after{
+                    top: -25px
+                }
+            }
+        }
+    }
+    .venue-tab{
+        width: 100%;
+        height: 100px;
+        background: url(../../../static/images/news/anniversary829/venue.png) center no-repeat;
+        overflow: hidden;
+        .venue-list{
+            width: 1200px;
+            margin: 30px auto;
+            li{
+                width: 307px;
+                height: 39px;
+                line-height: 39px;
+                text-align: center;
+                background-image: linear-gradient(-1deg, #B99657 54%, #EBCA91 114%);
+                font-size: 18px;
+                color: #ffffff;
+                display: inline-block;
+                margin-top: -4px;
+                margin-left: -16px;
+                border-left: 1px solid #fff;
+                -webkit-transform: skew(-23deg);
+                transform: skew(-23deg);
+                cursor: pointer;
+                .venue-txt{
+                    font-size: 18px;
+                    color: #ffffff;
+                    display: inline-block;
+                    transform: skew(23deg);
+                }
+            }
+            li:nth-of-type(1){
+                border-left: none;
+                /*background: #c79550;*/
+            }
+            .venue-active{
+                background: #BA973F;
+            }
+        }
+    }
+    .content{
+        width: 1200px;
+        margin: 63px auto 5px;
+        .discounts,.cloud-safety,.cloud-application,.big-data,.activity-rules{
+            .discounts-head{
+                height: 40px;
+                line-height: 40px;
+                .discounts-tit-icon{
+                    float: left;
+                }
+                .discounts-tit{
+                    float: left;
+                    margin-left: 20px;
+                    font-size: 34px;
+                    color: #ffffff;
+                }
+            }
+            .discounts-cnt{
+                margin-top: 25px;
+                .discounts-product:nth-of-type(1),.discounts-product:nth-of-type(6){
+                    margin-left: 0px;
+                }
+                .discounts-product{
+                    width: 220px;
+                    height: 260px;
+                    border: 1px solid #fff;
+                    float: left;
+                    margin-left: 25px;
+                    margin-top: 25px;
+                    position: relative;
+                    background: url(../../../static/images/news/anniversary829/product-back.png) no-repeat;
+                    .product-tit{
+                        height: 92px;
+                        line-height: 92px;
+                        padding-left: 25px;
+                        font-size: 20px;
+                        background: #29385A;
+                    }
+                    .product-cnt{
+                        padding: 30px 20px;
+                        .product-discount{
+                            color: #754b22;
+                            display: inline-block;
+                            margin-right: 10px;
+                            .product-num{
+                                font-size: 26px;
+                                padding-right: 3px
+                            }
+                        }
+                        .product-buy{
+                            width: 180px;
+                            height: 35px;
+                            text-align: center;
+                            line-height: 35px;
+                            font-size: 16px;
+                            margin-top: 10px;
+                            background: url(../../../static/images/news/anniversary829/product-buy.png) no-repeat;
+                        }
+                    }
+                    .product-tag{
+                        width: 70px;
+                        height: 70px;
+                        position: absolute;
+                        top: -6px;
+                        left: 155px;
+                        background: url(../../../static/images/news/anniversary829/tag.png) no-repeat;
+                    }
+                }
+            }
+            .discounts-foot{
+                height: 155px;
+                margin-top: 46px;
+                border: 1px solid #ffffff;
+                .discounts-foot-left{
+                    width: 774px;
+                    float: left;
+                    .discounts-foot-txt{
+                        width: 200px;
+                        height: 80px;
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 80px;
+                        display: inline-block;
+                        margin-top: 36px;
+                        background: url(../../../static/images/news/anniversary829/discounts_foot_back.png) no-repeat;
+                    }
+                    .discounts-foot-txt:nth-of-type(1){
+                        margin-left: 100px;
+                    }
+                    .discounts-foot-txt2{
+                        font-size: 30px;
+                        width: 200px;
+                        height: 80px;
+                        text-align: center;
+                        line-height: 80px;
+                        margin-top: 36px;
+                        display: inline-block;
+                    }
+                }
+                .discounts-foot-right{
+                    width: 424px;
+                    height: 155px;
+                    float: left;
+                    margin-top: -1px;
+                    text-align: center;
+                    background: url(../../../static/images/news/anniversary829/discounts-right-back.png) no-repeat;
+                    .foot-right-txt{
+                        font-size: 18px;
+                        margin-top: 40px;
+                    }
+                    .discounts-right-back{
+                        width: 177px;
+                        height: 35px;
+                        text-align: center;
+                        line-height: 35px;
+                        font-size: 16px;
+                        color: #754b22;
+                        margin: 24px auto 0;
+                        background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+                    }
+                }
+            }
+        }
+        .cloud-resource{
+            margin-top: 60px;
+            .resource-head{
+                line-height: 40px;
+                .resource-tit-icon{
+                    float: left;
+                }
+                .resource-tit{
+                    float: left;
+                    margin-left: 20px;
+                    font-size: 34px;
+                    color: #ffffff;
+                }
+                .resource-tip{
+                    font-size: 14px;
+                    float: left;
+                    margin-top: 40px;
+                    margin-left: -218px;
+                }
+                .resource-line{
+                    width: 391px;
+                    height: 1px;
+                    float: left;
+                    margin-top: 100px;
+                    margin-left: -220px;
+                    background-color: #eee2bf;
+                }
+            }
+            .resource-cnt{
+                .server,.database{
+                    margin-top: 40px;
+                    .server-left{
+                        width: 390px;
+                        float: left;
+                        .server-tit{
+                            padding-top: 20px;
+                            font-size: 28px;
+                        }
+                        .server-introduce{
+                            margin-top: 30px;
+                            li{
+                                font-size: 16px;
+                                img{
+                                    margin-right: 13px;
+                                }
+                            }
+                        }
+                        .server-step{
+                            margin-top: 160px;
+                            color: #e6c26c;
+                        }
+                        .server-line{
+                            width: 391px;
+                            height: 1px;
+                            float: left;
+                            margin-top: 30px;
+                            background-color: #eee2bf;
+                        }
+                    }
+                    .server-right,.database-right{
+                        float: left;
+                        margin-left: 58px;
+                        .server-product{
+                            width: 223px;
+                            height: 354px;
+                            /*padding: 20px;*/
+                            background: url(../../../static/images/news/anniversary829/server-product-back.png) no-repeat;
+                            display: inline-block;
+                            margin-left: 25px;
+                            .product-head{
+                                width: 100%;
+                                height: 263px;
+                                background-image: linear-gradient(90deg,
+                                    #172e61 0%,
+                                    #253b68 44%,
+                                    #32476f 100%);
+                                border: solid 1px #eee2bf;
+                                /*padding: 20px;*/
+                                /*background: url(../../../static/images/news/anniversary829/product-head-back.png) no-repeat;*/
+                                .product-tit{
+                                    padding-left: 20px;
+                                    padding-top: 28px;
+                                    font-size: 20px;
+                                }
+                                .product-tip{
+                                    padding-left: 20px;
+                                    opacity: 0.6;
+                                }
+                                .product-list{
+                                    width: 100%;
+                                    height: 45px;
+                                    line-height: 45px;
+                                    margin-top: 18px;
+                                    background: url(../../../static/images/news/anniversary829/product-list-back.png) no-repeat;
+                                    li{
+                                        display: inline-block;
+                                    }
+                                    li:first-child{
+                                        margin-left: 20px;
+                                    }
+                                    /*li:last-child{*/
+                                    /*margin-right: 20px;*/
+                                    /*}*/
+                                }
+                                .product-detail{
+                                    padding: 15px 15px 15px 20px;
+                                    opacity: 0.6;
+                                }
+                            }
+                            .product-buy{
+                                .buyBtn{
+                                    width: 177px;
+                                    height: 35px;
+                                    text-align: center;
+                                    line-height: 35px;
+                                    margin-top: 25px;
+                                    margin-left: 25px;
+                                    font-size: 16px;
+                                    color: #754b22;
+                                    background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+                .database{
+                    .database-introduce{
+                        margin-top: 42px;
+                        li{
+                            width: 384px;
+                            height: 54px;
+                            line-height: 54px;
+                            padding-left: 26px;
+                            font-size: 18px;
+                            color: #ffffff;
+                            background-color: rgba(151,177,251,.2);
+                            margin-top: 12px;
+                            cursor: pointer;
+                        }
+                        .active{
+                            background-color: rgba(151,177,251,.4);
+                        }
+                    }
+                    .database-line{
+                        width: 391px;
+                        height: 1px;
+                        background-color: #eee2bf;
+                        margin-top: 185px;
+                    }
+                    .database-right{
+                        margin-top: 100px;
+                        margin-left: 58px;
+                        float: left;
+                        .RDS{
+                            .database-product{
+                                width: 223px;
+                                height: 354px;
+                                border-left: 1px solid #fff;
+                                border-right: 1px solid #fff;
+                                display: inline-block;
+                                margin-left: 25px;
+                                background: url(../../../static/images/news/anniversary829/RDS_back.png) -48px no-repeat;
+                                .product-head{
+                                    height: 70px;
+                                    font-size: 20px;
+                                    text-align: center;
+                                    line-height: 70px;
+                                    border-top: 1px solid #fff;
+                                    background-image: linear-gradient(90deg,
+                                        #172e61 0%,
+                                        #253b68 44%,
+                                        #32476f 100%);
+                                    .product-line{
+                                        width: 59px;
+                                        height: 4px;
+                                        background-color: #ffffff;
+                                        margin: -2px auto 0;
+                                    }
+                                }
+                                .product-detail{
+                                    height: 190px;
+                                    font-size: 14px;
+                                    padding: 40px 17px 0 22px;
+                                }
+                                .product-buy{
+                                    .buyBtn{
+                                        width: 177px;
+                                        height: 35px;
+                                        text-align: center;
+                                        line-height: 35px;
+                                        margin-left: 25px;
+                                        font-size: 16px;
+                                        color: #754b22;
+                                        background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+                                    }
+                                }
+                            }
+                        }
+                        .Redis,.MongoDB{
+                            .database-product{
+                                margin-left: 25px;
+                                .product-left{
+                                    width: 506px;
+                                    height: 354px;
+                                    background-image: linear-gradient(90deg,
+                                        #172e61 0%,
+                                        #253b68 44%,
+                                        #32476f 100%);
+                                    padding: 30px 20px;
+                                    float: left;
+                                    border: 1px solid #fff;
+                                    .product-tit{
+                                        font-size: 20px;
+                                    }
+                                    .memory-box{
+                                        margin-top: 20px;
+                                        .product-memory{
+                                            width: 217px;
+                                            height: 100px;
+                                            line-height: 100px;
+                                            text-align: center;
+                                            display: inline-block;
+                                            font-size: 18px;
+                                            border: 1px #ffffff dashed;
+                                        }
+                                        .product-memory:nth-of-type(2),.product-memory:nth-of-type(4){
+                                            margin-left: 20px;
+                                        }
+                                        .product-memory:nth-of-type(3),.product-memory:nth-of-type(4){
+                                            margin-top: 20px;
+                                        }
+                                    }
+                                }
+                                .product-right{
+                                    float: left;
+                                    width: 220px;
+                                    height: 354px;
+                                    border-right: 1px solid #fff;
+                                    background: url(../../../static/images/news/anniversary829/product-right-back.png) no-repeat;
+                                    .buyBtn{
+                                        width: 177px;
+                                        height: 35px;
+                                        text-align: center;
+                                        line-height: 35px;
+                                        margin: 160px auto;
+                                        font-size: 16px;
+                                        color: #754b22;
+                                        background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .store{
+                    margin-top: 48px;
+                    .store-tit{
+                        font-size: 28px;
+                        margin-bottom: 54px;
+                    }
+                    .database-product:nth-of-type(1){
+                        margin-left: 0;
+                    }
+                    .database-product{
+                        width: 283px;
+                        height: 354px;
+                        border-right: 1px solid #fff;
+                        display: inline-block;
+                        margin-left: 19px;
+                        background: url(../../../static/images/news/anniversary829/store-back.png) no-repeat;
+                        .product-head{
+                            height: 70px;
+                            font-size: 20px;
+                            text-align: center;
+                            line-height: 70px;
+                            border-left: 1px solid #fff;
+                            border-top: 1px solid #fff;
+                            background-image: linear-gradient(90deg,
+                                #172e61 0%,
+                                #253b68 44%,
+                                #32476f 100%);
+                            .product-line{
+                                width: 59px;
+                                height: 4px;
+                                background-color: #ffffff;
+                                margin: -2px auto 0;
+                            }
+                        }
+                        .product-detail{
+                            height: 190px;
+                            font-size: 14px;
+                            padding: 40px 25px 0 32px;
+                        }
+                        .product-buy{
+                            .buyBtn{
+                                width: 177px;
+                                height: 35px;
+                                text-align: center;
+                                line-height: 35px;
+                                margin-left: 60px;
+                                font-size: 16px;
+                                color: #754b22;
+                                background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+                            }
+                        }
+                    }
+                }
+                .moreCloud{
+                    margin-top: 48px;
+                    .moreCloud-tit{
+                        font-size: 28px;
+                        margin-bottom: 54px;
+                    }
+                    .moreCloud-box{
+                        width: 1200px;
+                        height: 364px;
+                        box-shadow: 0px 9px 27px 2px rgba(26, 38, 63, 0.4);
+                        border: 1px solid #f3d9bf;
+                        .cloud{
+                            width: 235px;
+                            height: 112px;
+                            border-right: 1px solid rgba(0,21,46,.8);
+                            display: inline-block;
+                            margin-top: 45px;
+                            text-align: center;
+                            position: relative;
+                            .cloud-img{
+                                width: 100%;
+                                height: 70px;
+                            }
+                            .cloud-txt{
+                                font-size: 20px;
+                            }
+                            .cloud-tag{
+                                width: 70px;
+                                height: 70px;
+                                position: absolute;
+                                top: -6px;
+                                left: 169px;
+                                background: url(../../../static/images/news/anniversary829/discounts_5.png) no-repeat;
+                            }
+                        }
+                        .cloud:hover{
+                            color: #f7e0ca;
+                        }
+                        .cloud:nth-of-type(5),.cloud:nth-of-type(10){
+                            border-right: none !important;
+                        }
+                        .cloud:nth-of-type(1) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) 98px 0px no-repeat;
+                        }
+                        .cloud:nth-of-type(2) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -136px 0px no-repeat;
+                        }
+                        .cloud:nth-of-type(3) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -374px 0px no-repeat;
+                        }
+                        .cloud:nth-of-type(4) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -630px 0px no-repeat;
+                        }
+                        .cloud:nth-of-type(5) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -864px 0px no-repeat;
+                        }
+                        .cloud:nth-of-type(6) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) 98px -167px no-repeat;
+                        }
+                        .cloud:nth-of-type(7) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -142px -167px no-repeat;
+                        }
+                        .cloud:nth-of-type(8) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -377px -167px no-repeat;
+                        }
+                        .cloud:nth-of-type(9) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -623px -167px no-repeat;
+                        }
+                        .cloud:nth-of-type(10) .cloud-img{
+                            background: url(../../../static/images/news/anniversary829/moreCloud_icon.png) -862px -167px no-repeat;
+                        }
+
+                    }
+                }
+            }
+        }
+        .cloud-safety{
+            margin-top: 90px;
+            .safety-cnt{
+                margin-top: 12px;
+            }
+            .safety-serve{
+                width: 582px;
+                height: 290px;
+                background-image: linear-gradient(0deg,
+                    #d7a575 0%,
+                    #e8c4a2 61%,
+                    #f9e3ce 100%);
+                border: solid 1px #fff1c6;
+                display: inline-block;
+                margin-top: 38px;
+                .serve-name{
+                    font-size: 24px;
+                    height: 91px;
+                    text-align: center;
+                    line-height: 91px;
+                    background-image: linear-gradient(90deg,
+                        #102c68 0%,
+                        #183f8d 44%,
+                        #1f52b2 100%);
+                }
+                .serve-product{
+                    width: 546px;
+                    margin: 20px auto 0;
+
+                    li{
+                        height: 45px;
+                        line-height: 45px;
+                        background-image: linear-gradient(90deg,
+                            #172e61 0%,
+                            #253b68 44%,
+                            #32476f 100%),
+                        linear-gradient(
+                                #9d0102,
+                                #9d0102);
+                        background-blend-mode: normal,
+                        normal;
+                        border: solid 1px #eee2bf;
+                        margin-top: 10px;
+                        position: relative;
+
+                        span{
+                            font-size: 18px;
+                            padding-left: 41px;
+                            float: left;
+                        }
+                        a{
+                            display: inline-block;
+                            float: right;
+                            font-size: 14px;
+                            color: #e6c26c;
+                            padding-right: 63px;
+                        }
+                        .serve-tag,.serve-tag-7{
+                            /*discounts_9*/
+                            width: 65px;
+                            height: 45px;
+                            position: absolute;
+                            left: 481px;
+                            background: url(../../../static/images/news/anniversary829/discounts_serve_5.png) no-repeat;
+                        }
+                        .serve-tag-7{
+                            background: url(../../../static/images/news/anniversary829/discounts_serve_7.png) no-repeat;
+                        }
+                    }
+                }
+            }
+            .safety-serve:nth-of-type(2),.safety-serve:nth-of-type(4){
+                margin-left: 32px;
+            }
+        }
+        .cloud-application{
+            margin-top: 60px;
+            .application-cnt{
+                margin-top: 15px;
+                .application-list{
+                    width: 215px;
+                    height: 145px;
+                    border: solid 1px #fff1c6;
+                    text-align: center;
+                    display: inline-block;
+                    margin-top: 25px;
+                    margin-left: 27px;
+                    position: relative;
+                    overflow: hidden;
+                    .application-img{
+                        width: 100%;
+                        height: 90px;
+                    }
+                    .application-txt{
+                        font-size: 20px;
+                    }
+                    .application-tag,.discounts_gratis{
+                        width: 70px;
+                        height: 70px;
+                        position: absolute;
+                        top:0;
+                        left: 148px;
+                        background: url(../../../static/images/news/anniversary829/discounts_9.png) no-repeat;
+                    }
+                    .discounts_gratis{
+                        background: url(../../../static/images/news/anniversary829/discounts_gratis.png) no-repeat;
+                    }
+
+                }
+                .application-list:hover{
+                    color: #f7e0ca;
+                }
+                .application-list:nth-of-type(1),.application-list:nth-of-type(6),.application-list:nth-of-type(11),.application-list:nth-of-type(16),.application-list:nth-of-type(21){
+                    margin-left: 0;
+                }
+                .application-list:nth-of-type(1) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) 83px 25px no-repeat;
+                }
+                .application-list:nth-of-type(2) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -162px 25px no-repeat;
+                }
+                .application-list:nth-of-type(3) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -409px 25px no-repeat;
+                }
+                .application-list:nth-of-type(4) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -655px 25px no-repeat;
+                }
+                .application-list:nth-of-type(5) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -897px 25px no-repeat;
+                }
+                .application-list:nth-of-type(6) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) 83px -150px no-repeat;
+                }
+                .application-list:nth-of-type(7) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -166px -150px no-repeat;
+                }
+                .application-list:nth-of-type(8) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -409px -150px no-repeat;
+                }
+                .application-list:nth-of-type(9) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -655px -150px no-repeat;
+                }
+                .application-list:nth-of-type(10) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -902px -150px no-repeat;
+                }
+                .application-list:nth-of-type(11) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) 83px -320px no-repeat;
+                }
+                .application-list:nth-of-type(12) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -162px -320px no-repeat;
+                }
+                .application-list:nth-of-type(13) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -409px -320px no-repeat;
+                }
+                .application-list:nth-of-type(14) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -655px -320px no-repeat;
+                }
+                .application-list:nth-of-type(15) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -905px -320px no-repeat;
+                }
+                .application-list:nth-of-type(16) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) 83px -485px no-repeat;
+                }
+                .application-list:nth-of-type(17) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -166px -485px no-repeat;
+                }
+                .application-list:nth-of-type(18) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -409px -485px no-repeat;
+                }
+                .application-list:nth-of-type(19) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -655px -485px no-repeat;
+                }
+                .application-list:nth-of-type(20) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -902px -485px no-repeat;
+                }
+                .application-list:nth-of-type(21) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) 83px -655px no-repeat;
+                }
+                .application-list:nth-of-type(22) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -162px -655px no-repeat;
+                }
+                .application-list:nth-of-type(23) .application-img{
+                    background: url(../../../static/images/news/anniversary829/cloud-application-icon.png) -409px -655px no-repeat;
+                }
+                .application-list:nth-of-type(24) .application-img{
+                    background: url(../../../static/images/news/anniversary829/fz-icon.png) center no-repeat;
+                }
+            }
+        }
+        .big-data{
+            margin-top: 90px;
+            .data-cnt{
+                margin-top: 30px;
+                .data-product:nth-of-type(even){
+                    margin-left: 26px;
+                }
+                .data-product{
+                    width: 585px;
+                    height: 275px;
+                    background-image: linear-gradient(90deg,
+                        #193062 0%,
+                        #344872 100%);
+                    box-shadow: 0px 9px 27px 2px
+                    rgba(26, 38, 63, 0.4);
+                    display: inline-block;
+                    margin-top: 26px;
+                    .data-product-left{
+                        width: 221px;
+                        height: 275px;
+                        float: left;
+                        background: url(../../../static/images/news/anniversary829/data-product-left.png) -27px -17px no-repeat;
+                        border-left: solid 1px #eee2bf;
+                        .product-name{
+                            font-size: 20px;
+                            text-align: center;
+                            padding-top: 100px;
+                        }
+                        .product-detail{
+                            width: 177px;
+                            height: 35px;
+                            text-align: center;
+                            line-height: 35px;
+                            margin: 42px auto 0;
+                            font-size: 16px;
+                            color: #754b22;
+                            background: url(../../../static/images/news/anniversary829/discounts-right-txt.png) no-repeat;
+
+                        }
+                    }
+                    .data-product-right,.data-product-right1{
+                        width: 364px;
+                        height: 275px;
+                        background-image: linear-gradient(90deg,
+                            #193062 0%,
+                            #344872 100%);
+                        float: right;
+                        border: solid 1px #eee2bf;
+                        li{
+                            display: inline-block;
+                            width: 49%;
+                            font-size: 18px;
+                            margin-top: 23px;
+                            padding-left: 40px;
+                            a{
+                                display: inline-block;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                                font-size: 18px;
+                                color: #f7e0ca;
+                            }
+                        }
+                        li:nth-of-type(even){
+                            padding-left: 20px;
+                        }
+                        li::before{
+                            width: 8px;
+                            height: 8px;
+                            background-color: #f3d9bf;
+                            border-radius: 50%;
+                            display: inline-block;
+                            content: "";
+                            position: relative;
+                            left: -10px;
+                        }
+                        .serve-box,.serve-box1{
+                            width: 135px;
+                            height: 100px;
+                            border: dashed 1px #eee2bf;
+                            text-align: center;
+                            display: inline-block;
+                            margin-left: 35px;
+                            margin-top: 30px;
+                            .serve-icon{
+                                height: 64px;
+                            }
+                            .serve-name{
+                                font-size: 16px;
+                            }
+                        }
+                        .serve-box:hover,.serve-box1:hover{
+                            cursor: pointer;
+                            .serve-name{
+                                color: #f7e0ca;
+                            }
+                        }
+                        .serve-box:nth-of-type(even),.serve-box1:nth-of-type(even){
+                            margin-left: 25px;
+                        }
+                        .serve-box:nth-of-type(3),.serve-box:nth-of-type(4),.serve-box1:nth-of-type(3),.serve-box1:nth-of-type(4){
+                            margin-top: 20px;
+                        }
+                        .serve-box:nth-of-type(1) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/serve-icon.png) 44px 14px no-repeat;
+                        }
+                        .serve-box:nth-of-type(2) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/serve-icon.png) -124px 14px no-repeat;
+                        }
+                        .serve-box:nth-of-type(3) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/serve-icon.png) 42px -99px no-repeat;
+                        }
+                        .serve-box1:nth-of-type(1) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/identification-icon.png) 42px 14px no-repeat;
+                        }
+                        .serve-box1:nth-of-type(2) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/identification-icon.png) -124px 14px no-repeat;
+                        }
+                        .serve-box1:nth-of-type(3) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/identification-icon.png) 42px -105px no-repeat;
+                        }
+                        .serve-box1:nth-of-type(4) .serve-icon{
+                            background: url(../../../static/images/news/anniversary829/identification-icon.png) -124px -105px no-repeat;
+                        }
+                    }
+                    .data-product-right1{
+                        width: 979px;
+                        padding-top: 50px;
+                        li{
+                            width: 215px;
+                        }
+                    }
+                }
+            }
+        }
+        .activity-rules{
+            margin-top: 90px;
+            .rules-cnt{
+                margin-top: 30px;
+                height: 645px;
+                font-size: 16px;
+                padding: 60px 60px;
+                line-height: 30px;
+                background: url(../../../static/images/news/anniversary829/rules-cnt-back.png) -133px -81px no-repeat;
+            }
+        }
+    }
+}

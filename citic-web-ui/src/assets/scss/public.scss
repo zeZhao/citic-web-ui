@@ -1,0 +1,358 @@
+/*全局公用样式列表*/
+html, body {
+    min-width: 1200px;
+    height: 100%;
+    display: block;
+}
+
+* {
+    outline: none;
+}
+
+#app {
+    height: 100%;
+}
+
+/*----------------全局input placeholder 颜色----------------*/
+input::-webkit-input-placeholder {
+    color: #bbbec4;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #bbbec4;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #bbbec4;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #bbbec4;
+}
+
+/*---------------------------------*/
+
+/*-------------修改iview样式bug--------------*/
+/*选择分页大小组件弹窗错位bug*/
+.ivu-page .ivu-page-options {
+    position: relative;
+}
+
+/*分页组件点亮颜色覆盖*/
+.ivu-page {
+    .ivu-page-item:hover a {
+        color: #ea4123;
+    }
+
+    .ivu-page-item:hover {
+        border-color: #ea4123;
+    }
+
+    .ivu-page-item-active {
+        background: #ea4123;
+        border-color: #ea4123;
+        color: #fff;
+
+        &:hover a {
+            color: #fff;
+        }
+    }
+
+    .ivu-page-next:hover, .ivu-page-prev:hover {
+        border-color: #ea4123;
+        color: #ea4123;
+    }
+}
+
+/*---------------------------*/
+
+/*路由内容部分*/
+.frame-body {
+    min-height: 700px;
+    margin: 10px;
+}
+
+/*表格顶部搜索查询条件框*/
+.search-panel {
+    padding: 0 40px 0 0;
+}
+
+/*表格底部的分页控件样式*/
+.footer-page {
+    margin: 15px 0;
+}
+
+.ivu-carousel-active button {
+  background: #333 !important;
+}
+
+//客服按钮样式
+#kf5-support-btn {
+    display: none !important;
+}
+
+/*提示框公共样式*/
+.dialog {
+
+    .dialog-title {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .dialog-subtitle {
+        font-size: 14px;
+        color: #e2e2e2;
+    }
+
+    .dialog-button-group {
+        .ivu-btn {
+            padding: 10px 0;
+            width: 150px;
+        }
+    }
+}
+
+/*正确icon*/
+.icon-success {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../../../static/svg/success-icon.svg") center no-repeat;
+    background-size: cover;
+}
+
+/*错误icon*/
+.icon-error {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../../../static/svg/error-icon.svg") center no-repeat;
+    background-size: cover;
+}
+
+/*返回icon*/
+.icon-error {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../../../static/svg/go-back-icon.svg") center no-repeat;
+    background-size: cover;
+}
+
+/*覆盖iview弹出框样式*/
+.ivu-modal {
+    text-align: center;
+    top: 40%;
+
+    .ivu-modal-content {
+        border-radius: 0;
+
+        .ivu-modal-close {
+            right: 0;
+            top: -55px;
+
+            .ivu-icon-ios-close-empty {
+                font-size: 60px;
+                color: #fff;
+            }
+        }
+
+        .ivu-modal-body {
+            padding: 0;
+
+            /*隐藏弹窗提示图片*/
+            .ivu-icon {
+                display: none;
+            }
+
+            /*确认弹窗*/
+            .ivu-modal-confirm {
+                background: #f7f7f7;
+                padding: 0;
+
+                div {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .ivu-modal-confirm-head {
+                    display: none;
+                }
+
+                .ivu-modal-confirm-body {
+                    .body {
+                        background: #f7f7f7;
+                        padding: 50px 0 30px 0;
+
+                        .dialog-title {
+                            font-size: 16px;
+                            padding: 5px 0;
+                        }
+
+                        .dialog-subtitle {
+                            font-size: 14px;
+                            color: #e2e2e2;
+                        }
+                    }
+                }
+
+                .ivu-modal-confirm-footer {
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    padding: 12px 18px 12px 18px;
+
+                    .ivu-btn {
+                        padding: 10px 0;
+                        width: 150px;
+                        border-radius: 24px;
+                        font-size: 12px;
+
+                        &.ivu-btn-text {
+                            order: 2;
+                            color: #495060;
+                            background-color: transparent;
+                            border-color: #dddee1;
+
+                            &:hover {
+                                color: #57a3f3;
+                                background-color: transparent;
+                                border-color: #57a3f3;
+                            }
+                        }
+
+                        &.ivu-btn-primary {
+                            order: 1;
+                            margin-right: 8px;
+                            background-color: #ed3f14;
+                            border-color: #ed3f14;
+
+                            &:hover {
+                                background-color: #f16543;
+                                border-color: #f16543;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .ivu-modal-footer {
+            border-top: 0;
+            text-align: center;
+        }
+    }
+}
+
+/*红色check-box*/
+.check-box.red {
+    .ivu-checkbox-checked .ivu-checkbox-inner {
+        border-color: #ed3f14;
+        background-color: #ed3f14;
+    }
+}
+
+/*iview表单样式覆盖*/
+.ivu-select, .ivu-date-picker, .ivu-input-wrapper {
+
+    .ivu-icon {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 12px !important;
+    }
+
+    /*
+        表单项默认光圈效果
+        王佩剑 悬浮效果 会影响订单列表搜索框，不启用全局覆盖样式
+    */
+    /*   .ivu-select-selection, .ivu-input{
+           border: none;
+           box-shadow: 0 0 5px 0 rgba(146, 146, 146, 0.4);
+       }
+
+       .ivu-select-selection:hover, .ivu-input:hover, .ivu-select-visible .ivu-select-selection, .ivu-input:focus{
+           box-shadow: 0 1px 10px 0 rgba(101, 181, 255, 0.51);
+       }*/
+}
+
+/*时间选择框*/
+.ivu-date-picker {
+    .ivu-icon-ios-calendar-outline:before {
+        content: "";
+        display: inline-block;
+        background: url("../../../static/svg/calendar-icon.svg") center no-repeat;
+        background-size: 16px;
+        height: 16px;
+        width: 16px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+//.console-wrapper {
+//    margin-top: 20px;
+//}
+//
+//
+//.page-wrapper {
+//    margin-top: 20px;
+//}
+
+/**
+ * 表单中多个组件一行展示的样式
+ * 例如：起止时间、区间值、省市区
+ */
+.inline-item {
+    .item {
+        display: inline-block;
+
+        &:not(:first-child) {
+        .ivu-form-item-content {
+            margin-left: 0 !important;
+        }
+        }
+
+        /* 连接符 */
+        &.connector {
+        padding: 0 6px;
+        line-height: 32px;
+        }
+    }
+}
+
+.ac {
+    text-align: center;
+}
+
+/* 搜索框 */
+.search-wrapper {
+  margin-bottom: 30px;
+  .search-btn {
+    text-align: center;
+  }
+}
+
+.ivu-table-cell {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
